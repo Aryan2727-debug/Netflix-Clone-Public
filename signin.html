@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpeg" href="logofav.jpg">
+</head>
+<body>
+
+    <!--Sign In Box-->
+    
+    <div class="first_container">
+        <a href="index.html"><img src="logo1.png" alt="image" class="logo_image"></a>
+         
+        <div class="sign_block">
+            <h1 class="sign_heading"><b>Sign Up</b></h1>
+
+            <input id="email" type="email" class="email_phone" placeholder="Email or phone number">
+            <input id="password" type="password" class="password" placeholder="Password">
+
+            <button onclick="login()" class="sign_in_btn">Sign Up</button>
+
+            <input type="checkbox" class="check">
+            <p class="remember"><b>Remember me</b></p>
+
+            <a href="https://www.netflix.com/in/LoginHelp" class="help_link"><p class="help"><b>Need help?</b></p></a>
+
+            <p class="new"><b>New to Netflix? <a class="sign_link" href="index.html">Sign up now.</a></b></p>
+
+            <p class="captcha1"><b>This page is protected by Google reCAPTCHA to</b></p>
+            <p class="captcha2"><b>ensure you're not a bot. <a href="https://policies.google.com/privacy"><b>Learn more</b></a></b></p>
+        </div>
+        
+     </div>
+
+     <hr style="border:2px solid #484848;background-color:#484848">
+     <hr style="border:2px solid #484848;background-color:#484848">
+
+    <!--Footer-->
+
+    <div class="seventh_container">
+        <h4 class="question_heading">Questions? Call 000-800-040-1843</h4>
+
+        <ul class="first_list">
+            <li><b>FAQ</b></li>
+            <br>
+            <li><b>Investor Relations</b></li>
+            <br>
+            <li><b>Privacy</b></li>
+            <br>
+            <li><b>Speed Test</b></li>
+        </ul>
+
+        <ul class="second_list">
+            <li><b>Help Centre</b></li>
+            <br>
+            <li><b>Jobs</b></li>
+            <br>
+            <li><b>Cookie Preferences</b></li>
+            <br>
+            <li><b>Legal Notices</b></li>
+        </ul>
+
+        <ul class="third_list">
+            <li><b>Account</b></li>
+            <br>
+            <li><b>Ways to Watch</b></li>
+            <br>
+            <li><b>Corporate Information</b></li>
+            <br>
+            <li><b>Only on Netflix</b></li>
+        </ul>
+
+        <ul class="fourth_list">
+            <li><b>Media Centre</b></li>
+            <br>
+            <li><b>Terms of Use</b></li>
+            <br>
+            <li><b>Contact Us</b></li>
+        </ul>
+
+        <select class="dropdown1">
+            <option style="background-color:gray;font-weight: bolder;font-size: 15px;"><b>English</b></option>
+            <option style="background-color:gray;font-weight: bolder;font-size: 15px;"><b>Hindi</b></option>
+         </select>
+
+         <p class="netflix_india"><b>Netflix India</b></p>
+    </div>
+
+
+</body>
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js"></script>
+<script src="script.js"></script>
+</html>
